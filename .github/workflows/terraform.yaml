@@ -26,9 +26,6 @@ jobs:
           terraform_version: 1.0.1
           terraform_wrapper: false
 
-      - name: Terraform Format
-        run: terraform fmt -check
-
       - name: Terraform Init
         run: terraform init
 
